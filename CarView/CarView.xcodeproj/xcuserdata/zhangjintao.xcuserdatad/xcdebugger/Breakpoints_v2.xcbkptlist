@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A868AACD-4799-4150-A8CC-9F9053AC28AF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E744719-4C03-4486-9501-9FA0180635CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarView/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DetailView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 327e0c5bc8fd4095"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarView.DetailView.Text.getter : Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "CarView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 46f4b4f5b139e769"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarView.DetailView.init(frame: __C.CGRect) -&gt; CarView.DetailView"
+                  moduleName = "CarView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 9f6d8ec5ae03ba49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarView.DetailView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CarView.DetailView&gt;"
+                  moduleName = "CarView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "701">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -18,7 +18,7 @@ class SecondView:UIView, UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
-    var Text:[[String]]=[[],["x1","x2","x3","x4","x5"],["458","488","355","F40","250 GT"],["G350","C200","S560","S500","glb"],["Aventador","Huracan","Reventon","350GT","350GTV"],["A6","A7","A8","R7","RS7"]]
+    var Text:[[String]]=[[],["x1","x2","x3","x4","x5"],["458","488","355","F40","250GT"],["G350","C200","S560","S500","glb"],["Aventador","Huracan","Reventon","350GT","350GTV"],["A6","A7","A8","R7","RS7"]]
     
     var backButton = UIButton()
     var imageView=UIImageView()
