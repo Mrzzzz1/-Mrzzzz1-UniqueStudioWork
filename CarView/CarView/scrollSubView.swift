@@ -7,10 +7,10 @@
 
 import UIKit
 protocol ScollSubViewDegegate{
-    func showTableview(tag:Int)
+    func showTableview(tag: Int)
 }
-class ScollSubView:UIView{
-    var Name:[String]=[" ","宝马","法拉利","奔驰","兰博基尼","奥迪"]
+class ScollSubView: UIView{
+    var Name: [String]=[" ","宝马","法拉利","奔驰","兰博基尼","奥迪"]
       
     var delegate:ScollSubViewDegegate?=nil
     var startLocation=CGPoint()

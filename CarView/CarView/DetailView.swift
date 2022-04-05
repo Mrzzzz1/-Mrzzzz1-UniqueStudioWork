@@ -6,14 +6,13 @@
 //
 
 import UIKit
-class DetailView:UIView{
+class DetailView: UIView{
     let Name:[String]=[" ","宝马","法拉利","奔驰","兰博基尼","奥迪"]
     var detailLabel1=UILabel()
     var detailLabel2=UILabel()
     var detailLabel3=UILabel()
     var tag1=0;
     var tag2=0;
-    
     let Text:[[String]]=[[],["x1","x2","x3","x4","x5"],["458","488","355","F40","250GT"],["G350","C200","S560","S500","glb"],["Aventador","Huracan","Reventon","350GT","350GTV"],["A6","A7","A8","R7","RS7"]]
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,7 +23,7 @@ class DetailView:UIView{
     }
     var label=UILabel()
     var backButton=UIButton()
-    func setUp(i:Int,j:Int){
+    func setUp(i: Int,j: Int){
         tag1=i;
         tag2=j;
         self.backgroundColor = .white
@@ -63,8 +62,6 @@ class DetailView:UIView{
         detailLabel3.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive=true
         detailLabel3.font=UIFont.boldSystemFont(ofSize: 35)
         ReadData()
-        
-        
     }
     
     @objc func click() {
@@ -78,7 +75,6 @@ class DetailView:UIView{
         }, completion:{
             _ in self.removeFromSuperview()
         })
-        
     }
     func ReadData(){
         let jsonPath=Bundle.main.path(forResource: "Data", ofType: "JSON")

@@ -33,8 +33,6 @@ class ViewController: UIViewController,ScollSubViewDegegate,SecondViewDelegate, 
     var scollView=UIScrollView()
     var scollSubView=[ScollSubView]()
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -54,7 +52,6 @@ class ViewController: UIViewController,ScollSubViewDegegate,SecondViewDelegate, 
         label.text="Choose your car!"
         label.textColor = .black
         label.font=UIFont.systemFont(ofSize: 40)
-        
     }
     
     func setUpScrollView(){
