@@ -11,21 +11,21 @@ protocol ScollSubViewDegegate{
 }
 class ScollSubView: UIView{
     var Name: [String]=[" ","宝马","法拉利","奔驰","兰博基尼","奥迪"]
-      
-    var delegate:ScollSubViewDegegate?=nil
-    var startLocation=CGPoint()
-    var touchDown=false
-    var imageview=UIImageView()
-    var name:String?
-    var label=UILabel()
+    var delegate: ScollSubViewDegegate? = nil
+    var startLocation = CGPoint()
+    var touchDown = false
+    var imageview = UIImageView()
+    var name: String?
+    var label = UILabel()
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    public func configView(tag:Int){
+    public func configView(tag: Int){
         imageview.image=UIImage(named: "\(tag).jpeg")
         label.text=Name[tag]
         self.tag=tag

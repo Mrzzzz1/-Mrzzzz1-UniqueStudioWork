@@ -20,8 +20,8 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 327e0c5bc8fd4095"
-                  shouldBeEnabled = "Yes"
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 327e0c5bc8fd4374"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CarView.DetailView.Text.getter : Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
@@ -30,13 +30,13 @@
                   urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
                   offsetFromSymbolStart = "45">
                </Location>
                <Location
-                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 46f4b4f5b139e769"
-                  shouldBeEnabled = "Yes"
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 46f4b4f5b139e488"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CarView.DetailView.init(frame: __C.CGRect) -&gt; CarView.DetailView"
@@ -45,13 +45,13 @@
                   urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
                   offsetFromSymbolStart = "820">
                </Location>
                <Location
-                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 9f6d8ec5ae03ba49"
-                  shouldBeEnabled = "Yes"
+                  uuid = "8E744719-4C03-4486-9501-9FA0180635CB - 9f6d8ec5ae03b9a8"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CarView.DetailView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CarView.DetailView&gt;"
@@ -60,8 +60,8 @@
                   urlString = "file:///Users/zhangjintao/Desktop/CarView/CarView/DetailView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
                   offsetFromSymbolStart = "701">
                </Location>
             </Locations>
